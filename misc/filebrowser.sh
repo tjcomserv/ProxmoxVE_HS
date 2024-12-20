@@ -31,19 +31,21 @@ APP="FileBrowser"
 hostname="$(hostname)"
 header_info
 if [ -f /root/filebrowser.db ]; then
-  read -r -p "Would you like to uninstall ${APP} on $hostname.? <y/N> " prompt
-    if [[ "${prompt,,}" =~ ^(y|yes)$ ]]; then
-      systemctl disable -q --now filebrowser.service
-      rm -rf /usr/local/bin/filebrowser /root/filebrowser.db /etc/systemd/system/filebrowser.service
-      echo "$APP Removed"
-      sleep 2
-      clear
-      exit
-    else
-      clear
-      exit
-    fi
-fi 
+  read -r -p "Would you like to (r)emove or (u)pgrade ${APP} on $hostname.? <r/u> " prompt
+  if [[ "${prompt,,}" =~ ^(r|remove)$ ]]; then
+    systemctl disable -q --now filebrowser.service
+    rm -rf /usr/local/bin/filebrowser /root/filebrowser.db /etc/systemd/system/filebrowser.service
+    echo "$APP Removed"
+    sleep 2
+    clear
+    exit
+  elif [[ "${prompt,,}" =~ ^(u|upgrade)$ ]]; then
+    echo "Upgrading ${APP}..."
+  else
+    clear
+    exit
+  fi
+fi
 while true; do
     read -p "This will Install ${APP} on $hostname. Proceed(y/n)?" yn
     case $yn in
