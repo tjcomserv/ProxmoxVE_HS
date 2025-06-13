@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
-source <(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/misc/build.func)
+source <(curl -fsSL https://raw.githubusercontent.com/tjcomserv/ProxmoxVE_HS/main/misc/build.func)
 # Copyright (c) 2021-2025 community-scripts ORG
 # Author: tteck (tteckster) | Co-Author: MickLesk (CanbiZ)
-# License: MIT | https://github.com/community-scripts/ProxmoxVE/raw/main/LICENSE
+# License: MIT | https://github.com/tjcomserv/ProxmoxVE_HS/raw/main/LICENSE
 # Source: https://www.home-assistant.io/
 
 APP="Home Assistant-Core"
@@ -23,7 +23,7 @@ function update_script() {
   header_info
   if ! lsb_release -d | grep -q "Ubuntu 24.10"; then
     msg_error "Wrong OS detected. This script only supports Ubuntu 24.10."
-    msg_error "Read Guide: https://github.com/community-scripts/ProxmoxVE/discussions/1549"
+    msg_error "Read Guide: https://github.com/tjcomserv/ProxmoxVE_HS/discussions/1549"
     exit 1
   fi
   check_container_storage
@@ -163,3 +163,4 @@ msg_ok "Completed Successfully!\n"
 echo -e "${CREATING}${GN}${APP} setup has been successfully initialized!${CL}"
 echo -e "${INFO}${YW} Access it using the following URL:${CL}"
 echo -e "${TAB}${GATEWAY}${BGN}http://${IP}:8123${CL}"
+

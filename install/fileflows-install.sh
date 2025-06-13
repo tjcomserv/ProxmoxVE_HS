@@ -2,7 +2,7 @@
 
 # Copyright (c) 2021-2025 community-scripts ORG
 # Author: kkroboth
-# License: MIT | https://github.com/community-scripts/ProxmoxVE/raw/main/LICENSE
+# License: MIT | https://github.com/tjcomserv/ProxmoxVE_HS/raw/main/LICENSE
 # Source: https://fileflows.com/
 
 # Import Functions und Setup
@@ -69,3 +69,4 @@ rm -f "$temp_file"
 $STD apt-get -y autoremove
 $STD apt-get -y autoclean
 msg_ok "Cleaned"
+

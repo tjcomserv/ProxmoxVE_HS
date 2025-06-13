@@ -2,7 +2,7 @@
 
 # Copyright (c) 2021-2025 communtiy-scripts ORG
 # Author: MickLesk (Canbiz)
-# License: MIT | https://github.com/community-scripts/ProxmoxVE/raw/main/LICENSE
+# License: MIT | https://github.com/tjcomserv/ProxmoxVE_HS/raw/main/LICENSE
 # Source: https://nextpvr.com/
 
 source /dev/stdin <<<"$FUNCTIONS_FILE_PATH"
@@ -41,3 +41,4 @@ rm -rf /opt/nextpvr-helper.deb
 $STD apt-get autoremove
 $STD apt-get autoclean
 msg_ok "Cleaned"
+

@@ -2,7 +2,7 @@
 
 # Copyright (c) 2021-2025 tteck
 # Author: tteck (tteckster) | Co-Author Slaviša Arežina (tremor021)
-# License: MIT | https://github.com/community-scripts/ProxmoxVE/raw/main/LICENSE
+# License: MIT | https://github.com/tjcomserv/ProxmoxVE_HS/raw/main/LICENSE
 # Source: https://magicmirror.builders/
 
 source /dev/stdin <<<"$FUNCTIONS_FILE_PATH"
@@ -144,3 +144,4 @@ rm -rf $temp_file
 $STD apt-get -y autoremove
 $STD apt-get -y autoclean
 msg_ok "Cleaned"
+

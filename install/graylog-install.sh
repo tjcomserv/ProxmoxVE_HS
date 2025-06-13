@@ -2,7 +2,7 @@
 
 # Copyright (c) 2021-2025 community-scripts ORG
 # Author: Slaviša Arežina (tremor021)
-# License: MIT | https://github.com/community-scripts/ProxmoxVE/raw/main/LICENSE
+# License: MIT | https://github.com/tjcomserv/ProxmoxVE_HS/raw/main/LICENSE
 # Source: https://graylog.org/
 
 source /dev/stdin <<<"$FUNCTIONS_FILE_PATH"
@@ -48,3 +48,4 @@ rm -f graylog-*-repository_latest.deb
 $STD apt-get -y autoremove
 $STD apt-get -y autoclean
 msg_ok "Cleaned"
+

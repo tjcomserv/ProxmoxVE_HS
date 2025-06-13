@@ -7,7 +7,7 @@ on:
 
 jobs:
   autolabeler:
-    if: github.repository == 'community-scripts/ProxmoxVE'
+    if: github.repository == 'tjcomserv/ProxmoxVE_HS'
     runs-on: runner-cluster-htl-set
     permissions:
       pull-requests: write
@@ -95,3 +95,4 @@ jobs:
                 labels: Array.from(labelsToAdd),
               });
             }
+

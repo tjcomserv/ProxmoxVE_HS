@@ -2,7 +2,7 @@
 
 # Copyright (c) 2021-2025 tteck
 # Author: tteck (tteckster)
-# License: MIT | https://github.com/community-scripts/ProxmoxVE/raw/main/LICENSE
+# License: MIT | https://github.com/tjcomserv/ProxmoxVE_HS/raw/main/LICENSE
 
 set -o pipefail
 
@@ -95,3 +95,4 @@ done
 wait
 header_info
 echo -e "${GN}Finished, LXC Containers Trimmed.${CL} \n"
+

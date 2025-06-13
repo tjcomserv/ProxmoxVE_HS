@@ -2,7 +2,7 @@
 # Copyright (c) 2021-2025 community-scripts ORG
 # Author: MickLesk
 # License: MIT
-# https://github.com/community-scripts/ProxmoxVE/raw/main/LICENSE
+# https://github.com/tjcomserv/ProxmoxVE_HS/raw/main/LICENSE
 
 function header_info {
   clear
@@ -78,3 +78,4 @@ done
 echo -e "${YW}Cleaning up...${CL}"
 apt-get autoremove -y >/dev/null 2>&1 && update-grub >/dev/null 2>&1
 echo -e "${GN}Cleanup and GRUB update complete.${CL}"
+

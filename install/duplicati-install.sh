@@ -2,7 +2,7 @@
 
 # Copyright (c) 2021-2025 community-scripts ORG
 # Author: tremor021
-# License: MIT | https://github.com/community-scripts/ProxmoxVE/raw/main/LICENSE
+# License: MIT | https://github.com/tjcomserv/ProxmoxVE_HS/raw/main/LICENSE
 # Source: https://github.com/duplicati/duplicati/
 
 source /dev/stdin <<<"$FUNCTIONS_FILE_PATH"
@@ -61,3 +61,4 @@ msg_ok "Cleaned"
 
 motd_ssh
 customize
+

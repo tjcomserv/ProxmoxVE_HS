@@ -2,7 +2,7 @@
 
 # Copyright (c) 2021-2025 community-scripts ORG
 # Author: Omar Minaya
-# License: MIT | https://github.com/community-scripts/ProxmoxVE/raw/main/LICENSE
+# License: MIT | https://github.com/tjcomserv/ProxmoxVE_HS/raw/main/LICENSE
 # Source: https://www.kasmweb.com/docs/latest/index.html
 
 source /dev/stdin <<<"$FUNCTIONS_FILE_PATH"
@@ -30,3 +30,4 @@ $STD rm -f "/opt/kasm_release_${KASM_VERSION}.tar.gz"
 $STD apt-get -y autoremove
 $STD apt-get -y autoclean
 msg_ok "Cleaned"
+

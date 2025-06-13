@@ -3,9 +3,9 @@
 # Copyright (c) 2021-2025 tteck
 # Author: tteck (tteckster)
 # License: MIT
-# https://github.com/community-scripts/ProxmoxVE/raw/main/LICENSE
+# https://github.com/tjcomserv/ProxmoxVE_HS/raw/main/LICENSE
 
-source /dev/stdin <<<$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/misc/api.func)
+source /dev/stdin <<<$(curl -fsSL https://raw.githubusercontent.com/tjcomserv/ProxmoxVE_HS/main/misc/api.func)
 
 function header_info {
   cat <<"EOF"
@@ -307,7 +307,7 @@ qm importdisk $VMID ${FILE%.*} $STORAGE ${DISK_IMPORT:-} 1>&/dev/null
 qm set $VMID \
   -scsi0 "$DISK_REF" \
   -boot order=scsi0 \
-  -description "<div align='center'><a href='https://Helper-Scripts.com'><img src='https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/misc/images/logo-81x112.png'/></a>
+  -description "<div align='center'><a href='https://Helper-Scripts.com'><img src='https://raw.githubusercontent.com/tjcomserv/ProxmoxVE_HS/main/misc/images/logo-81x112.png'/></a>
 
   # Mikrotik RouterOS CHR
 
@@ -321,3 +321,4 @@ if [ "$START_VM" == "yes" ]; then
 fi
 post_update_to_api "done" "none"
 msg_ok "Completed Successfully!\n"
+

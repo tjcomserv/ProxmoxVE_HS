@@ -59,7 +59,7 @@ Example:
 ```bash
 # Copyright (c) 2021-2025 community-scripts ORG
 # Author: [YourUserName]
-# License: MIT | https://github.com/community-scripts/ProxmoxVE/raw/main/LICENSE
+# License: MIT | https://github.com/tjcomserv/ProxmoxVE_HS/raw/main/LICENSE
 # Source: [SOURCE_URL]
 ```
 
@@ -352,3 +352,4 @@ apt-get -y autoclean
 3. Download and configure application
 4. Service configuration
 5. Final cleanup
+

@@ -4,7 +4,7 @@
 # Author: tteck (tteckster)
 # Co-Author: MickLesk (Canbiz)
 # License: MIT
-# https://github.com/community-scripts/ProxmoxVE/raw/main/LICENSE
+# https://github.com/tjcomserv/ProxmoxVE_HS/raw/main/LICENSE
 
 function header_info {
   clear
@@ -88,3 +88,4 @@ apt-get install -y netbird-ui &>/dev/null
 msg "\e[1;32m ✔ Installed NetBird.\e[0m"
 sleep 2
 msg "\e[1;31m Reboot ${CTID} LXC to apply the changes, then run netbird up in the LXC console\e[0m"
+

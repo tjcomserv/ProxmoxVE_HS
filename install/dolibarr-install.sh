@@ -2,7 +2,7 @@
 
 # Copyright (c) 2021-2025 community-scripts ORG
 # Author: Slaviša Arežina (tremor021)
-# License: MIT | https://github.com/community-scripts/ProxmoxVE/raw/main/LICENSE
+# License: MIT | https://github.com/tjcomserv/ProxmoxVE_HS/raw/main/LICENSE
 # Source: https://github.com/Dolibarr/dolibarr/
 
 source /dev/stdin <<<"$FUNCTIONS_FILE_PATH"
@@ -49,3 +49,4 @@ rm -rf ~/$FILE
 $STD apt-get autoremove
 $STD apt-get autoclean
 msg_ok "Cleaned"
+

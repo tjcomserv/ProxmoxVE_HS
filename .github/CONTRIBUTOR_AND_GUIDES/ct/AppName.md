@@ -52,7 +52,7 @@ source <(curl -s https://raw.githubusercontent.com/[USER]/[REPO]/refs/heads/[BRA
 Final script:
 
 ```bash
-source <(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/misc/build.func)
+source <(curl -fsSL https://raw.githubusercontent.com/tjcomserv/ProxmoxVE_HS/main/misc/build.func)
 ```
 
 > [!CAUTION]
@@ -67,7 +67,7 @@ Example:
 ```bash
 # Copyright (c) 2021-2025 community-scripts ORG
 # Author: [YourUserName]
-# License: MIT | https://github.com/community-scripts/ProxmoxVE/raw/main/LICENSE
+# License: MIT | https://github.com/tjcomserv/ProxmoxVE_HS/raw/main/LICENSE
 # Source: [SOURCE_URL]
 ```
 
@@ -285,3 +285,4 @@ echo -e "${TAB}${GATEWAY}${BGN}http://${IP}${CL}"
 - [ ] Update functions checks if app is installed and for new version.
 - [ ] Update function cleans up temporary files.
 - [ ] Script ends with a helpful message for the user to reach the application.
+

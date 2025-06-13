@@ -2,7 +2,7 @@
 
 # Copyright (c) 2021-2025 tteck
 # Author: tteck (tteckster)
-# License: MIT | https://github.com/community-scripts/ProxmoxVE/raw/main/LICENSE
+# License: MIT | https://github.com/tjcomserv/ProxmoxVE_HS/raw/main/LICENSE
 # Source: https://zwave-js.github.io/zwave-js-ui/#/
 
 source /dev/stdin <<<"$FUNCTIONS_FILE_PATH"
@@ -54,3 +54,4 @@ rm zwave-js-ui-${RELEASE}-linux.zip
 $STD apt-get -y autoremove
 $STD apt-get -y autoclean
 msg_ok "Cleaned"
+

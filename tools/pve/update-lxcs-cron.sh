@@ -3,7 +3,7 @@
 # Copyright (c) 2021-2025 tteck
 # Author: tteck (tteckster)
 # License: MIT
-# https://github.com/community-scripts/ProxmoxVE/raw/main/LICENSE
+# https://github.com/tjcomserv/ProxmoxVE_HS/raw/main/LICENSE
 
 echo -e "\n $(date)"
 excluded_containers=("$@")
@@ -48,3 +48,4 @@ for container in $(pct list | awk '{if(NR>1) print $1}'); do
   fi
 done
 wait
+

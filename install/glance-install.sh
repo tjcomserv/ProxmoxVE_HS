@@ -2,7 +2,7 @@
 
 # Copyright (c) 2021-2025 community-scripts ORG
 # Author: kristocopani
-# License: MIT | https://github.com/community-scripts/ProxmoxVE/raw/main/LICENSE
+# License: MIT | https://github.com/tjcomserv/ProxmoxVE_HS/raw/main/LICENSE
 # Source: https://github.com/glanceapp/glance
 
 source /dev/stdin <<<"$FUNCTIONS_FILE_PATH"
@@ -37,7 +37,7 @@ pages:
                   - title: Google
                     url: https://www.google.com/
                   - title: Helper Scripts
-                    url: https://github.com/community-scripts/ProxmoxVE
+                    url: https://github.com/tjcomserv/ProxmoxVE_HS
 EOF
 
 echo "${RELEASE}" >"/opt/${APPLICATION}_version.txt"
@@ -71,3 +71,4 @@ rm -rf /opt/glance-linux-amd64.tar.gz
 $STD apt-get -y autoremove
 $STD apt-get -y autoclean
 msg_ok "Cleaned"
+

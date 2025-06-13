@@ -11,7 +11,7 @@ on:
 
 jobs:
   build:
-    if: github.repository == 'community-scripts/ProxmoxVE'
+    if: github.repository == 'tjcomserv/ProxmoxVE_HS'
     runs-on: ubuntu-latest #To ensure it always builds we use the github runner with all the right tooling
 
     steps:
@@ -36,3 +36,4 @@ jobs:
           repo_name=${{ github.repository }}  # Get repository name
           repo_name_lower=$(echo $repo_name | tr '[:upper:]' '[:lower:]')  # Convert to lowercase
           docker push ghcr.io/$repo_name_lower/gh-runner-self:latest
+

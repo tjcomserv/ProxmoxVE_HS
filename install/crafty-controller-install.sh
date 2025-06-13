@@ -2,7 +2,7 @@
 
 # Copyright (c) 2021-2025 community-scripts
 # Author: CrazyWolf13
-# License: MIT | https://github.com/community-scripts/ProxmoxVE/raw/main/LICENSE
+# License: MIT | https://github.com/tjcomserv/ProxmoxVE_HS/raw/main/LICENSE
 # Source: https://docs.craftycontrol.com/pages/getting-started/installation/linux/
 
 source /dev/stdin <<<"$FUNCTIONS_FILE_PATH"
@@ -96,3 +96,4 @@ rm -rf /opt/crafty-4-v${RELEASE}.zip
 $STD apt-get -y autoremove
 $STD apt-get -y autoclean
 msg_ok "Cleaned"
+

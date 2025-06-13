@@ -12,14 +12,14 @@ permissions:
 
 jobs:
   crawl-versions:
-    if: github.repository == 'community-scripts/ProxmoxVE'
+    if: github.repository == 'tjcomserv/ProxmoxVE_HS'
     runs-on: runner-cluster-htl-set
 
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v2
         with:
-          repository: community-scripts/ProxmoxVE
+          repository: tjcomserv/ProxmoxVE_HS
           ref: main
 
       - name: Generate a token
@@ -124,3 +124,4 @@ jobs:
           if [ -n "$PR_NUMBER" ]; then
             gh pr review $PR_NUMBER --approve
           fi
+

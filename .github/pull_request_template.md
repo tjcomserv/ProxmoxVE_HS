@@ -1,4 +1,4 @@
-<!--🛑 New scripts must be submitted to [ProxmoxVED](https://github.com/community-scripts/ProxmoxVED) for testing.  
+<!--🛑 New scripts must be submitted to [ProxmoxVED](https://github.com/tjcomserv/ProxmoxVE_HSD) for testing.  
 PRs without prior testing will be closed. -->
 ## ✍️ Description  
 
@@ -25,3 +25,4 @@ Link: #
 - [ ] 🌍 **Website update** – Changes to website-related JSON files or metadata.  
 - [ ] 🔧 **Refactoring / Code Cleanup** – Improves readability or maintainability without changing functionality.  
 - [ ] 📝 **Documentation update** – Changes to `README`, `AppName.md`, `CONTRIBUTING.md`, or other docs.  
+

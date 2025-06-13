@@ -2,7 +2,7 @@
 
 # Copyright (c) 2021-2025 community-scripts ORG
 # Author: MickLesk (CanbiZ)
-# License: MIT | https://github.com/community-scripts/ProxmoxVE/raw/main/LICENSE
+# License: MIT | https://github.com/tjcomserv/ProxmoxVE_HS/raw/main/LICENSE
 # Source: https://www.wireguard.com/
 
 source /dev/stdin <<<"$FUNCTIONS_FILE_PATH"
@@ -98,3 +98,4 @@ msg_ok "Started Services"
 
 motd_ssh
 customize
+

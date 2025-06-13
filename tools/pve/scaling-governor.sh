@@ -3,7 +3,7 @@
 # Copyright (c) 2021-2025 tteck
 # Author: tteck (tteckster)
 # License: MIT
-# https://github.com/community-scripts/ProxmoxVE/raw/main/LICENSE
+# https://github.com/tjcomserv/ProxmoxVE_HS/raw/main/LICENSE
 set -e
 header_info() {
   clear
@@ -59,3 +59,4 @@ no)
   ;;
 esac
 echo -e "Current CPU Scaling Governor is set to \033[36m$current_governor\033[m\n"
+

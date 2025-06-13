@@ -2,7 +2,7 @@
 
 # Copyright (c) 2021-2025 community-scripts ORG
 # Author: tteck (tteckster) | Co-Author: MickLesk
-# License: MIT | https://github.com/community-scripts/ProxmoxVE/raw/main/LICENSE
+# License: MIT | https://github.com/tjcomserv/ProxmoxVE_HS/raw/main/LICENSE
 
 function header_info {
     clear
@@ -182,3 +182,4 @@ else
     echo -e "${YW}⚠️ Installation skipped. Exiting.${CL}"
     exit 0
 fi
+

@@ -2,7 +2,7 @@
 
 # Copyright (c) 2021-2025 tteck
 # Author: tteck (tteckster)
-# License: MIT | https://github.com/community-scripts/ProxmoxVE/raw/main/LICENSE
+# License: MIT | https://github.com/tjcomserv/ProxmoxVE_HS/raw/main/LICENSE
 # Source: https://emby.media/
 
 source /dev/stdin <<<"$FUNCTIONS_FILE_PATH"
@@ -44,3 +44,4 @@ $STD apt-get -y autoremove
 $STD apt-get -y autoclean
 rm emby-server-deb_${LATEST}_amd64.deb
 msg_ok "Cleaned"
+
