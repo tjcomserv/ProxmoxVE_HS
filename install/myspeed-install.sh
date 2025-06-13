@@ -2,7 +2,7 @@
 
 # Copyright (c) 2021-2025 tteck
 # Author: MickLesk (Canbiz)
-# License: MIT | https://github.com/community-scripts/ProxmoxVE/raw/main/LICENSE
+# License: MIT | https://github.com/tjcomserv/ProxmoxVE_HS/raw/main/LICENSE
 # Source: https://github.com/gnmyt/myspeed
 
 source /dev/stdin <<<"$FUNCTIONS_FILE_PATH"
@@ -59,3 +59,4 @@ $STD apt-get -y autoremove
 rm -rf /opt/MySpeed-$RELEASE.zip
 $STD apt-get -y autoclean
 msg_ok "Cleaned"
+

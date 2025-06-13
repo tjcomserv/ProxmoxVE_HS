@@ -3,7 +3,7 @@
 # Copyright (c) 2021-2025 tteck
 # Author: tteck (tteckster)
 # License: MIT
-# https://github.com/community-scripts/ProxmoxVE/raw/main/LICENSE
+# https://github.com/tjcomserv/ProxmoxVE_HS/raw/main/LICENSE
 
 function header_info {
   clear
@@ -73,3 +73,4 @@ pct set "$CTID" -tags "${TAGS}"
 msg "\e[1;32m ✔ Installed Tailscale\e[0m"
 
 msg "\e[1;31m Reboot ${CTID} LXC to apply the changes, then run tailscale up in the LXC console\e[0m"
+

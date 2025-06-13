@@ -2,7 +2,7 @@
 
 # Copyright (c) 2021-2025 community-scripts ORG
 # Author: Dominik Siebel (dsiebel)
-# License: MIT | https://github.com/community-scripts/ProxmoxVE/raw/main/LICENSE
+# License: MIT | https://github.com/tjcomserv/ProxmoxVE_HS/raw/main/LICENSE
 # Source: https://github.com/toniebox-reverse-engineering/teddycloud
 
 source /dev/stdin <<<"$FUNCTIONS_FILE_PATH"
@@ -57,3 +57,4 @@ $STD apt-get --yes autoremove
 $STD apt-get --yes autoclean
 rm -rf "teddycloud.amd64.release_v${VERSION}.zip"
 msg_ok "Cleaned"
+

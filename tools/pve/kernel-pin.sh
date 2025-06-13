@@ -3,7 +3,7 @@
 # Copyright (c) 2021-2025 tteck
 # Author: tteck (tteckster)
 # License: MIT
-# https://github.com/community-scripts/ProxmoxVE/raw/main/LICENSE
+# https://github.com/tjcomserv/ProxmoxVE_HS/raw/main/LICENSE
 
 function header_info {
   clear
@@ -68,3 +68,4 @@ proxmox-boot-tool kernel list
 echo ""
 msg_ok "Finished\n"
 echo -e "${RD} REBOOT${CL}"
+

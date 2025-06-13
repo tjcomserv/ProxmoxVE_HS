@@ -2,7 +2,7 @@
 
 # Copyright (c) 2021-2025 community-scripts ORG
 # Author: nicedevil007 (NiceDevil)
-# License: MIT | https://github.com/community-scripts/ProxmoxVE/raw/main/LICENSE
+# License: MIT | https://github.com/tjcomserv/ProxmoxVE_HS/raw/main/LICENSE
 # Source: https://it-tools.tech/
 
 source /dev/stdin <<<"$FUNCTIONS_FILE_PATH"
@@ -50,3 +50,4 @@ rm -rf /tmp/it-tools
 rm -f it-tools.zip
 $STD apk cache clean
 msg_ok "Cleaned"
+

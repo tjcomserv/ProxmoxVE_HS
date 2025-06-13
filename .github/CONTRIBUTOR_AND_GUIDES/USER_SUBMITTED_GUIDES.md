@@ -1,6 +1,6 @@
 <div align="center">
   <a href="#">
-    <img src="https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/misc/images/logo.png" height="100px" />
+    <img src="https://raw.githubusercontent.com/tjcomserv/ProxmoxVE_HS/main/misc/images/logo.png" height="100px" />
  </a>
 </div>
 <h2 align="center">User Submitted Guides </h2>
@@ -42,3 +42,4 @@
 [The fastest installation of Docker and Portainer on Proxmox VE](https://lavr.site/en-fastest-install-docker-portainer-proxmox/)
 
 [How To Setup Proxmox Backuper Server Using Helper Scripts](<https://youtu.be/6C2JOsrZZZw?si=kkrrcL_nLCDBJkOB>)
+

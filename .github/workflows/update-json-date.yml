@@ -10,7 +10,7 @@ on:
 
 jobs:
   update-app-files:
-    if: github.repository == 'community-scripts/ProxmoxVE'
+    if: github.repository == 'tjcomserv/ProxmoxVE_HS'
     runs-on: runner-cluster-htl-set
 
     permissions:
@@ -150,3 +150,4 @@ jobs:
       - name: No changes detected
         if: env.changed == 'false'
         run: echo "No changes to commit. Workflow completed successfully."
+

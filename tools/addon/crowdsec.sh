@@ -3,7 +3,7 @@
 # Copyright (c) 2021-2025 tteck
 # Author: tteck (tteckster)
 # License: MIT
-# https://github.com/community-scripts/ProxmoxVE/raw/main/LICENSE
+# https://github.com/tjcomserv/ProxmoxVE_HS/raw/main/LICENSE
 
 YW=$(echo "\033[33m")
 BL=$(echo "\033[36m")
@@ -86,3 +86,4 @@ apt-get install -y crowdsec-firewall-bouncer-iptables &>/dev/null
 msg_ok "Installed ${APP} Common Bouncer"
 
 msg_ok "Completed Successfully!\n"
+

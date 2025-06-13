@@ -33,7 +33,7 @@
   },
   "notes": [
     {
-      "text": "Check our configuration guide for help: `https://github.com/community-scripts/ProxmoxVE/discussions/2388`",
+      "text": "Check our configuration guide for help: `https://github.com/tjcomserv/ProxmoxVE_HS/discussions/2388`",
       "type": "info"
     },
     {
@@ -42,3 +42,4 @@
     }
   ]
 }
+

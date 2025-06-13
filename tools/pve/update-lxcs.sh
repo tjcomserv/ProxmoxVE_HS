@@ -3,7 +3,7 @@
 # Copyright (c) 2021-2025 tteck
 # Author: tteck (tteckster)
 # License: MIT
-# https://github.com/community-scripts/ProxmoxVE/raw/main/LICENSE
+# https://github.com/tjcomserv/ProxmoxVE_HS/raw/main/LICENSE
 
 function header_info() {
   clear
@@ -110,3 +110,4 @@ if [ "${#containers_needing_reboot[@]}" -gt 0 ]; then
   done
 fi
 echo ""
+

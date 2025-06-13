@@ -3,7 +3,7 @@
 # Copyright (c) 2021-2025 tteck
 # Author: tteck (tteckster)
 # License: MIT
-# https://github.com/community-scripts/ProxmoxVE/raw/main/LICENSE
+# https://github.com/tjcomserv/ProxmoxVE_HS/raw/main/LICENSE
 
 function header_info() {
   clear
@@ -45,3 +45,4 @@ fi
 header_info
 echo -e "${BL}[Info]${GN} Cleaning $name${CL} \n"
 echo -e "${GN}Populating apt lists${CL} \n"
+

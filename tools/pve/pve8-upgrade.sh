@@ -3,7 +3,7 @@
 # Copyright (c) 2021-2025 tteck
 # Author: tteck (tteckster)
 # License: MIT
-# https://github.com/community-scripts/ProxmoxVE/raw/main/LICENSE
+# https://github.com/tjcomserv/ProxmoxVE_HS/raw/main/LICENSE
 
 header_info() {
   clear
@@ -137,3 +137,4 @@ if ! pveversion | grep -Eq "pve-manager/(7\.4-(16|17|18|19))"; then
 fi
 
 start_routines
+

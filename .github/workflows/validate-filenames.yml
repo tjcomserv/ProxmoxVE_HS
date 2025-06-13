@@ -9,7 +9,7 @@ on:
 
 jobs:
   check-files:
-    if: github.repository == 'community-scripts/ProxmoxVE'
+    if: github.repository == 'tjcomserv/ProxmoxVE_HS'
     name: Check changed files
     runs-on: runner-cluster-htl-set
     permissions:
@@ -160,3 +160,4 @@ jobs:
                 });
               }
             }
+

@@ -2,7 +2,7 @@
 
 # Copyright (c) 2021-2025 community-scripts ORG
 # Author: MickLesk (CanbiZ)
-# License: MIT | https://github.com/community-scripts/ProxmoxVE/raw/main/LICENSE
+# License: MIT | https://github.com/tjcomserv/ProxmoxVE_HS/raw/main/LICENSE
 
 function header_info {
     clear
@@ -73,3 +73,4 @@ find_orphaned_lvm
 delete_orphaned_lvm
 
 echo -e "✅ Cleanup process completed!\n"
+

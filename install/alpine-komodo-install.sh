@@ -2,7 +2,7 @@
 
 # Copyright (c) 2021-2025 community-scripts ORG
 # Author: MickLesk (CanbiZ)
-# License: MIT | https://github.com/community-scripts/ProxmoxVE/raw/main/LICENSE
+# License: MIT | https://github.com/tjcomserv/ProxmoxVE_HS/raw/main/LICENSE
 # Source: https://komo.do/
 
 source /dev/stdin <<<"$FUNCTIONS_FILE_PATH"
@@ -77,3 +77,4 @@ customize
 msg_info "Cleaning up"
 $STD apk cache clean
 msg_ok "Cleaned"
+

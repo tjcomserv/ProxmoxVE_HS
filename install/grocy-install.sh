@@ -2,7 +2,7 @@
 
 # Copyright (c) 2021-2025 tteck
 # Author: tteck (tteckster)
-# License: MIT | https://github.com/community-scripts/ProxmoxVE/raw/main/LICENSE
+# License: MIT | https://github.com/tjcomserv/ProxmoxVE_HS/raw/main/LICENSE
 # Source: https://grocy.info/
 
 source /dev/stdin <<<"$FUNCTIONS_FILE_PATH"
@@ -66,3 +66,4 @@ $STD apt-get -y autoremove
 $STD apt-get -y autoclean
 rm -rf /root/grocy_${latest}.zip
 msg_ok "Cleaned"
+

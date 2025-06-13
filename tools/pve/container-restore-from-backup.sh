@@ -3,7 +3,7 @@
 # Copyright (c) 2021-2025 tteck
 # Author: tteck (tteckster)
 # License: MIT
-# https://github.com/community-scripts/ProxmoxVE/raw/main/LICENSE
+# https://github.com/tjcomserv/ProxmoxVE_HS/raw/main/LICENSE
 
 clear
 if command -v pveversion >/dev/null 2>&1; then
@@ -87,3 +87,4 @@ rm -rf /var/lib/docker/volumes/hass_config/_data/restore/*
 msg_ok "Restore Complete"
 msg_ok "Starting Home Assistant \n"
 docker start homeassistant
+

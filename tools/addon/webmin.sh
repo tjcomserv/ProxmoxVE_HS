@@ -3,7 +3,7 @@
 # Copyright (c) 2021-2025 tteck
 # Author: tteck (tteckster)
 # License: MIT
-# https://github.com/community-scripts/ProxmoxVE/raw/main/LICENSE
+# https://github.com/tjcomserv/ProxmoxVE_HS/raw/main/LICENSE
 
 function header_info {
   clear
@@ -59,3 +59,4 @@ msg_ok "Installed Webmin"
 
 IP=$(hostname -I | cut -f1 -d ' ')
 echo -e "Successfully Installed!! Webmin should be reachable by going to ${BL}https://${IP}:10000${CL}"
+

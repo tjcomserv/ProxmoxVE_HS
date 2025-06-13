@@ -1,6 +1,6 @@
 // Copyright (c) 2021-2025 community-scripts ORG
 // Author: Michel Roegl-Brunner (michelroegl-brunner)
-// License: MIT | https://github.com/community-scripts/ProxmoxVE/raw/main/LICENSE
+// License: MIT | https://github.com/tjcomserv/ProxmoxVE_HS/raw/main/LICENSE
 
 package main
 
@@ -448,3 +448,4 @@ func main() {
 	fmt.Println("Server running on port 8080")
 	log.Fatal(http.ListenAndServe(":8080", handler))
 }
+

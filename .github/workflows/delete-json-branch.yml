@@ -9,7 +9,7 @@ on:
 
 jobs:
   delete_branch:
-    if: github.repository == 'community-scripts/ProxmoxVE'
+    if: github.repository == 'tjcomserv/ProxmoxVE_HS'
     runs-on: runner-cluster-htl-set
     steps:
       - name: Checkout the code
@@ -27,3 +27,4 @@ jobs:
           else
             echo "Skipping deletion of the main branch"
           fi
+

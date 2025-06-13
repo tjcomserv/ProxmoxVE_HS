@@ -7,7 +7,7 @@ on:
   
 jobs:
   create-daily-release:
-    if: github.repository == 'community-scripts/ProxmoxVE'
+    if: github.repository == 'tjcomserv/ProxmoxVE_HS'
     runs-on: runner-cluster-htl-set
     permissions:
       contents: write
@@ -45,3 +45,4 @@ jobs:
         run: |
           YESTERDAY=$(date -u --date="yesterday" +%Y-%m-%d)
           gh release create "$YESTERDAY" -t "$YESTERDAY" -F changelog_tmp.md
+
